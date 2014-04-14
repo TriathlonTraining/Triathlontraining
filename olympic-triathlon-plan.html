@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,700italic' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="We are a resource for the triathlon training community to grow and interact with. The site provides useful information for anyone involved in triathlon."/>
+  <link rel="icon" 
+      type="image/ico" 
+      href="favicon.ico">
+	<title>Triathlon Training</title>
+	<!-- style -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top sq" role="navigation">
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle sq" data-toggle="collapse" data-target="#triathlon-nav1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="img-responsive logo" href="index.html"><img src="img/TT-Logo-White.png" class="img-responsive"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="triathlon-nav1">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="triathlon-blog.html">Blog</a></li>
+        <li><a href="triathlon-training-plans.html">Training Plans</a></li>
+        
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign In</a></li>
+        <!-- <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container training-plans">
+<div class="col-md-5">
+  <h2 class="shop">Olympic Triathlon Training Plan</h2>
+
+<!-- ***********************************************
+  *************************************************
+NEED SOME HELP WITH THIS CHECKOUT
+****************************************************
+***************************************************
+ -->
+<button class="btn btn-success btn-lg btn-block sq" action="/charge" method="POST" id="customButton">
+  $20 | Buy Now
+<script
+    src="https://checkout.stripe.com/checkout.js"
+    data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+    data-image="/square-image.png"
+    data-name="Triathlon Training"
+    data-description="Olympic Training Plan ($20.00)"
+    data-amount="2000">
+  </script>
+</button>
+
+
+
+    <h3>Training Plan Includes:</h3>
+<ul>
+<li>General Race Information</li>
+<li>Tips for Beginners</li>
+<li>Techniques for Avoiding Injury</li>
+<li>Glossary of Workout Terms</li>
+<li>12 Weeks of Detailed Daily Workouts </li>
+<li>Excercises with Photo Examples</li>
+<li>Nutrition Tips and Resources</li>
+</ul>
+
+
+<p>
+ The Olympic triathlon was declared an official triathlon distance of the Sydney Olympic Games in 2000. It’s a competitive endurance sport that’s designed spectator-friendly; usually, the course loops around to accommodate the audience. </p>
+
+<p>
+While it has a reputation for being ultra-competitive, the “olympic tri” is also great for novice triathletes because it is less grueling than Ironman distances. To properly train for an olympic triathlon, you should plan to start training 12 weeks before race day.
+</p>
+
+ <p>
+<small>After purchase is processed, your browser will download a PDF with the full training plan.  You will also be emailed a download link for easy plan recovery.  All plans are copyrighted. Reproduction and distribution is prohibited.</small>
+</p>
+
+
+
+</div>
+  <div class="col-md-7">
+  <iframe src="img/shop-images/olympic-triathlon-training-sample.pdf" class="media" width="100%" height="800" ></iframe>
+ 
+  </div>
+
+</div>
+<div class="footer">
+  <div class="col-md-12">
+     <ul class="list-inline unstyled">
+       <li><a href="#">Advertise</a></li>
+       <li><a href="#">Terms and Conditions</a></li>
+       <li><a href="#">Privacy Policy</a></li>
+       <li><a href="#">Get Involved</a></li>
+     </ul> 
+      <ul class="list-inline unstyled">
+       <li><a href="#">Contact Us</a></li>
+       <li><a href="#">Twitter</a></li>
+       <li><a href="#">Facebook</a></li>
+     </ul> 
+     <ul class="list-inline unstyled">
+        <img src="img/Triathlon-Training-Logo-Solid-White.png" alt="triathlon logo">
+     </ul> 
+     <ul class="list-inline unstyled">
+     <li>All Content © 2014</li>
+    </ul>
+  </div>  
+</div>      
+</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="js/jquery.media.js"></script>
+    <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  
+    <script src="js/script.js"></script>
+  
+</body>
+</html>
